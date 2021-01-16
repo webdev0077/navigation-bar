@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+aside{
+    width: 250px;
+    height: 75vh;
+    background-image: linear-gradient(to right, #0aa1cf,#0b69e4);
+    border-top-right-radius: 100px;
+    padding-top: 150px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+aside a{
+    color: #fff;
+    padding-bottom: 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+aside a:hover{
+    background-color: #fff;
+    color: #0b69e4;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
